@@ -1,6 +1,6 @@
 # BREAD – Illustrated Bakery Collection  
 
-An interactive React application implementing a UI inspired by the Figma design mockup. A personal learning project to practice React, MUI, TSX, CSS, and project structure.  
+An interactive React application implementing a UI inspired by a Figma design. A personal learning project to practice React, MUI, TSX, CSS, and project structure.  
 
 ---
 
