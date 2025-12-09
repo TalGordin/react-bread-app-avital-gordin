@@ -6,16 +6,17 @@ function App() {
     <Box sx={{flexGrow:1}}>
       <Grid
         container
-        flexDirection={"row"}
-        justifyContent={"center"}
+        justifyContent={"flex-start"}
         alignItems={"center"} 
+        paddingBottom={"410px"}
+        paddingLeft={"616px"}
       >
         <Grid size="auto">
           <Box
             component="img"
             src={CreatorLogo}
             alt="Creator Logo"
-            sx={{ width: "35px", height: "auto" }}
+            sx={{ width: "32px", height: "auto" }}
           />
         </Grid>
       </Grid>
