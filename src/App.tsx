@@ -1,16 +1,24 @@
-import { Box } from "@mui/material";
+import { Box, Grid } from "@mui/material";
+import CreatorLogo from './assets/CreatorLogo.avif';
 
 function App() {
-  const rights =
-    "All art & design rights reserved to adxnna.design. This is an educational project for learning React.";
-
   return (
-    <Box>
-      <div>
-        <h1>
-          {rights}
-        </h1>
-      </div>
+    <Box sx={{flexGrow:1}}>
+      <Grid
+        container
+        flexDirection={"row"}
+        justifyContent={"center"}
+        alignItems={"center"} 
+      >
+        <Grid size="auto">
+          <Box
+            component="img"
+            src={CreatorLogo}
+            alt="Creator Logo"
+            sx={{ width: "35px", height: "auto" }}
+          />
+        </Grid>
+      </Grid>
     </Box>
   );
 }
